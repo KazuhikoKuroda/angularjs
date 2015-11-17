@@ -39,5 +39,5 @@ var thirdControllerObj = function($scope) {
 	};
 	$scope.getFullName = function() {
 		return $scope.firstModelObj.firstName + " " + $scope.thirdModelObj.middleName + " " + $scope.thirdModelObj.lastName;
-	}
+	};
 };
