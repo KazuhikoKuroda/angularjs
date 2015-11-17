@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"jshint": "jshint *.js"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "angular": "^1.2.29"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.1-rc1"
   }
 }
