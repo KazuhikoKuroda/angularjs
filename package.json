@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"jshint": "jshint */*.js"
+    "jshint": "jshint */*.js"
   },
   "author": "",
   "license": "MIT",
@@ -13,6 +13,7 @@
     "angular": "^1.2.29"
   },
   "devDependencies": {
-    "jshint": "^2.9.1-rc1"
+    "jshint": "^2.9.1-rc1",
+    "jsvardump": "^1.0.2"
   }
 }

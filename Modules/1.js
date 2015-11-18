@@ -1,4 +1,4 @@
-var simpleController = function($scope) {
+var hoge = function($scope) {
 	$scope.person = {
 		firstName: "kazuhiko",
 		lastName: "kuroda",
@@ -7,4 +7,4 @@ var simpleController = function($scope) {
 		}
 	};
 };
-angular.module("mainModule", []).controller("simpleController", simpleController);
+angular.module("mainModule", []).controller("simpleController", hoge);
