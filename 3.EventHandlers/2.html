@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="../node_modules/angular/angular.min.js"></script>
+		<script src="./2.js"></script>
+	</head>
+
+	<body ng-app="mainModule">
+		<div ng-controller="mainController">
+			<label>Type something:
+			<input type="text"
+			ng-keydown="onKeyDown($event)"
+			ng-keyup="onKeyUp($event)"
+			ng-keypress="onKeyPress($event)" />
+			</label><br />
+			<strong>KEY DOWN RESULT:</strong> {{onKeyDownResult}}<br />
+			<strong>KEY UP RESULT:</strong> {{onKeyUpResult}}<br />
+			<strong>KEY PRESS RESULT:</strong> {{onKeyPressResult}}
+		</div>
+	</body>
+</html>
