@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="../node_modules/angular/angular.min.js"></script>
+	</head>
+
+	<body ng-app>
+		<h3>1. Show</h3>
+		<label>Show the inko: <input type="checkbox" ng-model="mustShow" /></label><br />
+		<img src="./images/inko.jpg" ng-show="mustShow" />
+		<br />
+		<h3>2. Hide</h3>
+		<label>Hide the inko: <input type="checkbox" ng-model="mustHide" /></label><br />
+		<img src="./images/inko.jpg" ng-hide="mustHide" />
+		<div ng-hide="mustHide" style="width: 50px; height: 50px; background-color: green;"></div>
+	</body>
+</html>
