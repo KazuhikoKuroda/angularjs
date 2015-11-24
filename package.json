@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "http-server .",
     "jshint": "jshint */*.js"
   },
   "author": "",
@@ -13,6 +14,7 @@
     "angular": "^1.2.29"
   },
   "devDependencies": {
+    "http-server": "^0.8.5",
     "jshint": "^2.9.1-rc1",
     "jsvardump": "^1.0.2"
   }
