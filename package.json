@@ -14,6 +14,8 @@
     "angular": "^1.2.29"
   },
   "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-php": "^1.5.1",
     "http-server": "^0.8.5",
     "jshint": "^2.9.1-rc1",
     "jsvardump": "^1.0.2"
