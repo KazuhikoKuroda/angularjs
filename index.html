@@ -1,0 +1,76 @@
+<html lang="ja">
+<header>
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	<title>aws S3</title>
+	<script src="node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript">
+		<!--
+		var contents = [{
+			title: "1. 基本",
+			dir: "1.Basics",
+			files: [1, 2, 3, 4, 5]
+		}, {
+			title: "2. モジュール",
+			dir: "2.Modules",
+			files: [1, 2, 3, 4, 5, 6, 7]
+		}, {
+			title: "3. イベントハンドラ",
+			dir: "3.EventHandlers",
+			files: [1, 2, 3]
+		}, {
+			title: "4. 表示・非表示系",
+			dir: "4.ConditionalDisplay",
+			files: [1, 2, 3, 4]
+		}, {
+			title: "5. コレクション",
+			dir: "5.Collections",
+			files: [1, 2, 3]
+		}, {
+			title: "6. サーバコール（S3ではPHP動かんすわ）",
+			dir: "6.ServerCalls",
+			files: [1, 2, 3]
+		}];
+		-->
+	</script>
+	<style type="text/css">
+		<!--
+		a {
+			padding: 10
+		}
+		-->
+	</style>
+</header>
+
+<body>
+	Amazon Web Service S3(Amazon Simple Storage Service)のテストです。
+	<script type="text/javascript">
+		<!--
+		document.open();
+		var category, dir, file;
+		for (category of contents) {
+			if (!category.hasOwnProperty("title")) {
+				category.title = "名称なし";
+			}
+
+			document.write("<div>");
+			document.write("<h3>" + category.title + "</h3>");
+
+			if (!category.hasOwnProperty("files")) {
+				continue;
+			}
+
+			for (file of category.files) {
+				dir = "";
+				if (category.hasOwnProperty("dir")) {
+					dir = category.dir + "/";
+				}
+				document.write("<a href='" + dir + file + ".html'>" + file + "</a>");
+			}
+			document.write("</div>");
+		}
+		document.close();
+		-->
+	</script>
+</body>
+
+</html>
