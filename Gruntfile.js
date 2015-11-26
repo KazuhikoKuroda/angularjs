@@ -6,7 +6,7 @@ module.exports = function (grunt) {
                 options: {
                     hostname: '127.0.0.1',
                     port: 5000,
-                    base: '6.ServerCalls', // Project root
+                    base: '.', // Project root
                     keepalive: true,
                     open: true
                 }
