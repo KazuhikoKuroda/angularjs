@@ -35,14 +35,27 @@
 	<style type="text/css">
 		<!--
 		a {
-			padding: 10
+			padding: 10;
+		}
+		span {
+			background: lightgray;
+			padding: 5;
+			font-size: 9;
 		}
 		-->
 	</style>
 </header>
 
 <body>
-	Amazon Web Service S3(Amazon Simple Storage Service)のテストです。
+	<p>
+		Amazon Web Service S3(Amazon Simple Storage Service)のテストです。<br>
+		試しにAngularJSのお勉強コードぶっこんでみました。<br>
+	</p>
+	<p>
+		aws-cli でローカルディレクトリと s3 を同期するヤツ<br>
+		<span>$ aws s3 sync /Users/kuro/Documents/Practice/angularjs s3://aws.angularjs.kurom96/ --exclude "*" --include "*.html" --include "*.js" --include "*.jpg"
+		</span>
+	</p>
 	<script type="text/javascript">
 		<!--
 		document.open();
